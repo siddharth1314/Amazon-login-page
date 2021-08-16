@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon Registration</title>
+    </head>
+<style>
+    body{
+        font-size: 14px;
+    }
+    /*set border to the form*/
+      
+    form {
+        border-radius: 20px;
+        text-align: center;
+        width:30%;
+        height: 150px;
+    }
+    /*assign full width inputs*/
+      
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 7px 10px;
+        margin: 20px 0;
+        text-align: center;
+        display: inline-block;
+        border: 1px solid silver;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    /*set a style for the buttons*/
+      
+    button {
+        background-color:#F4D37F;
+        color: black;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+    /* set a hover effect for the button*/
+      
+    button:hover {
+        opacity: 0.8;
+    }
+    /*set extra style for the cancel button*/
+      
+   
+    /*centre the display image inside the container*/
+      
+    .imgsid {
+        
+        text-align: center;
+        margin-top: 10px;
+
+    
+    }
+.container{
+    border:1px solid silver;
+    border-radius: 4px;
+    padding: 0px 20px;
+}    
+          
+    /*set styles for span and cancel button on small screens*/
+
+    .siddhu{
+        text-align: start;
+        margin-top: -10px;
+    }
+    .s1{
+        text-align: start;
+        padding-bottom: 10px;
+    }
+    .siddhu2{
+        text-align: start;
+
+    }
+    .n1,.n3{
+        text-align:start;
+    }
+    .n4{
+        margin-top: -35px;
+        margin-left: 20px;
+        
+    }
+    .n2{
+        margin-top: -35px;
+        margin-left: -30px;
+    }
+    
+.uname
+{
+    margin-top: -20px;
+}
+
+    @media (min-width: 300px) and (max-width: 1000px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+
+        }
+        form {
+    border-radius: 20px;
+    text-align: center;
+    
+    width: 75%;
+    height: 100%;
+    font-size: 20px;
+    padding-top: 201px;
+}
+
+.imgsid {
+    margin-top: 500px;
+    text-align: center;
+    }
+}
+</style>
+  
+<body>
+    <div class="imgsid">
+        <img src="../amazon/amazon 2.jpg " width="200px">
+        </div>
+  
+    
+    <!--Step 1 : Adding HTML--><center>
+    <form>
+        
+        
+        <div class="container">
+           <div class="s1"> <h1>Create account</h1></div>
+         
+            <label class ="uname"><b>Your Name</b></label>
+            <input type="text" placeholder=""  required>
+  
+            <label class ="uname"><b>E-mail</b></label>
+            <input type="text" placeholder="" class="uname" required>
+
+            <label class ="uname"><b>Password</b></label>
+            <input type="password" placeholder="At least 6 characters" class="psw" required>
+
+            <label class ="uname"><b>Re-enter Password</b></label>
+            <input type="password" placeholder="" class="psw" required>
+
+            <button type="submit">Create your amazon account</button>
+            <p class="siddhu2">By creating an account, you agree to Amazon's<br></P>
+            <p class="siddhu"><a href="#">condition of use and Privacy Notice.</P></a><br>
+                <hr class="i1">
+        
+         <p class="n1">Already have an account?</p>
+         <p class="n2"><a href="#">sign in</P></a>
+            
+        <p class="n3">Buying for work?</p>
+        <p class="n4"><a href="#">create a free business account</P></a>
+        
+        </div>
+  
+            
+
+        
+        
+       
+
+    </form>
+</center>
+  
+</body>
+      
+</html>
